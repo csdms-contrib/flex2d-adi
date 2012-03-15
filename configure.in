@@ -15,7 +15,7 @@ else
    ARCH_NAME="Unknown"
 fi
 
-AC_CHECK_HEADERS([malloc.h])
+AC_CHECK_HEADERS([malloc.h], [AC_DEFINE([HAVE_MALLOC_H], [1], [Define if malloc.h exists])])
 
 AC_CONFIG_FILES([Makefile])
 
