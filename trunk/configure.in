@@ -4,7 +4,7 @@ AC_INIT([flex2d-adi],[0.1.0],[csdms@colorado.edu])
 AC_CONFIG_HEADERS(config.h:config-h.in)
 AC_CONFIG_AUX_DIR([config])
 
-AM_INIT_AUTOMAKE([1.10])
+AM_INIT_AUTOMAKE([1.9])
 
 AC_PROG_CC
 
