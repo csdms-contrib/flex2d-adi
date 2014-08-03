@@ -1,3 +1,4 @@
+#include "config.h"
 #if HAVE_MALLOC_H
 # include<malloc.h>
 #endif
@@ -260,6 +261,7 @@ void solveimpl()
          deflect[i][j]=ry[j];}}
 }
 
+int
 main()
 {    FILE *fp1,*fp2,*fp3;
      int i,j;
